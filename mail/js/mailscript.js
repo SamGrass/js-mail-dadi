@@ -27,6 +27,7 @@ userButton.addEventListener("click",
         }
 
         console.log(result);
+        document.getElementById("risultato-accesso").innerHTML = result;
        
     }
 
