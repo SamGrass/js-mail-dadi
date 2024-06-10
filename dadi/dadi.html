@@ -4,26 +4,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="css/dadistyle.css">
 </head>
 <body>
+    <main>
+        <div class="container">
+            <h1>GIOCO DEL DADO</h1>
+
+            <h2 id="txt-risultato"></h2>
+            <!-- due colonne con i risultati -->
+            <div class="row">
+
+                <div class="col">
+                    <h3>Giocatore</h3>
+                    <div id="risultato-giocatore"></div>
+                </div>
+
+                <div class="col">
+                    <h3>CPU</h3>
+                    <div id="risultato-cpu"></div>
+                </div>
+            </div>
+            
+            <button id="lancio">Lancia</button>
+        </div>
+        
+    </main>
     
-    <h1>GIOCO DEL DADO</h1>
-
-    <h2 id="txt-risultato"></h2>
-    <!-- due colonne con i risultati -->
-    <div class="row">
-
-        <div class="col">
-            <h3>Giocatore</h3>
-            <div id="risultato-giocatore"></div>
-        </div>
-
-        <div class="col">
-            <h3>CPU</h3>
-            <div id="risultato-cpu"></div>
-        </div>
-    </div>
-    <button id="lancio">Lancia</button>
 
     <script type="text/javascript" src="js/dadiscript.js"></script>
 </body>
